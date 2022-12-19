@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive School Website</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- ICONSCOUT CDN -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+
+    <!-- GOOGLE FONTS (MONTSERRAT) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap">
+
+    <!-- SWIPER JS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav>
+        <div class="container nav-container">
+            <a href="index.html"><h4>Dantech</h4></a>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+    <!-- END NAVBAR -->
+
+    <!-- HEADER -->
+    <header>
+        <div class="container header-container">
+            <div class="header-left">
+                <h1>Let's Grow Our Skills To Advance Our Career Path. </h1>
+                <p>Welcome to our Institution center of creative and innovation.
+                   Meet the expert(s) and get a chance to learn from them.
+                   Let's grow our Technology. </p>
+                <a href="courses.html" class="btn btn-primary">Get Started</a>
+            </div>
+            <div class="header-right">
+                <div class="header-right-image">
+                    <img src="./images/header.svg">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- END HEADER -->
+
+    <!-- CATEGORIES -->
+    <section class="categories">
+        <div class="container categories-container">
+            <div class="categories-left">
+                <h1>Categories</h1>
+                <p>We offer various courses in our Institution. We have part-time classes
+                  as well as online courses. Enroll and get started to earn your badge</p>
+                  <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+            <div class="categories-right">
+                <article class="category">
+                    <span class="category-icon"><i class="uil uil-bitcoin-circle"></i></span>
+                    <h5>Blockchain</h5>
+                    <p>Meet our Blockchain developers experts and learn from them.</p>
+                </article>
+
+                <article class="category">
+                    <span class="category-icon"><i class="uil uil-palette"></i></span>
+                    <h5>Graphic Design</h5>
+                    <p>Meet our Graphic Designers experts and learn from them.</p>
+                </article>
+
+                <article class="category">
+                    <span class="category-icon"><i class="uil uil-usd-circle"></i></span>
+                    <h5>Finance</h5>
+                    <p>Meet our Finance Team experts and learn from them.</p>
+                </article>
+
+                <article class="category">
+                    <span class="category-icon"><i class="uil uil-megaphone"></i></span>
+                    <h5>Marketing</h5>
+                    <p>Meet our Marketing Team experts and learn from them.</p>
+                </article>
+
+                <article class="category">
+                    <span class="category-icon"><i class="uil uil-music"></i></span>
+                    <h5>Music</h5>
+                    <p>Meet our Music Team experts and learn from them.</p>
+                </article>
+
+                <article class="category">
+                    <span class="category-icon"><i class="uil uil-puzzle-piece"></i></span>
+                    <h5>Business</h5>
+                    <p>Meet our Business Team experts and learn from them.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <!-- END CATEGORIES -->
+
+    <!-- COURSES -->
+    <section class="courses">
+        <h2>Our Popular Courses</h2>
+        <div class="container courses-container">
+            <article class="course">
+                <div class="course-image">
+                    <img src="./images/landing.png">
+                </div>
+                <div class="course-info">
+                    <h4>Responsive Portfolio Website UI Design</h4>
+                    <p>You want to make designs for your personal or company websites?
+                        Here we are to help you achieve that. We are the the best UI
+                        designers.
+                    </p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course-image">
+                    <img src="./images/login-register.png">
+                </div>
+                <div class="course-info">
+                    <h4>Responsive Login-Register UI Design</h4>
+                    <p>You want to make designs for your personal or company websites?
+                        Here we are to help you achieve that. We are the the best UI
+                        designers.
+                    </p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course-image">
+                    <img src="./images/mobile.png">
+                </div>
+                <div class="course-info">
+                    <h4>Responsive Mobile UI Design</h4>
+                    <p>You want to make designs for your personal or company websites?
+                        Here we are to help you achieve that. We are the the best UI
+                        designers.
+                    </p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+        </div>
+    </section>
+    <!-- END COURSES -->
+
+    <!-- FAQs  -->
+    <section class="faqs">
+        <h2>Frequently Asked Questions</h2>
+        <div class="container faqs-container">
+            <article class="faq">
+                <div class="faq-icon"><i class="uil uil-plus"></i></div>
+                <div class="question-answer">
+                    <h4>How do I know the right courses for me?</h4>
+                    <p>Visiting our website page and reviewing our contents,
+                        you will find all the information you might need.
+                        Our experts are available all the time you can even 
+                        reach out to us anytime.
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq-icon"><i class="uil uil-plus"></i></div>
+                <div class="question-answer">
+                    <h4>How do I know the right courses for me?</h4>
+                    <p>Visiting our website page and reviewing our contents,
+                        you will find all the information you might need.
+                        Our experts are available all the time you can even 
+                        reach out to us anytime.
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq-icon"><i class="uil uil-plus"></i></div>
+                <div class="question-answer">
+                    <h4>How do I know the right courses for me?</h4>
+                    <p>Visiting our website page and reviewing our contents,
+                        you will find all the information you might need.
+                        Our experts are available all the time you can even 
+                        reach out to us anytime.
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq-icon"><i class="uil uil-plus"></i></div>
+                <div class="question-answer">
+                    <h4>How do I know the right courses for me?</h4>
+                    <p>Visiting our website page and reviewing our contents,
+                        you will find all the information you might need.
+                        Our experts are available all the time you can even 
+                        reach out to us anytime.
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq-icon"><i class="uil uil-plus"></i></div>
+                <div class="question-answer">
+                    <h4>How do I know the right courses for me?</h4>
+                    <p>Visiting our website page and reviewing our contents,
+                        you will find all the information you might need.
+                        Our experts are available all the time you can even 
+                        reach out to us anytime.
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq-icon"><i class="uil uil-plus"></i></div>
+                <div class="question-answer">
+                    <h4>How do I know the right courses for me?</h4>
+                    <p>Visiting our website page and reviewing our contents,
+                        you will find all the information you might need.
+                        Our experts are available all the time you can even 
+                        reach out to us anytime.
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq-icon"><i class="uil uil-plus"></i></div>
+                <div class="question-answer">
+                    <h4>How do I know the right courses for me?</h4>
+                    <p>Visiting our website page and reviewing our contents,
+                        you will find all the information you might need.
+                        Our experts are available all the time you can even 
+                        reach out to us anytime.
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq-icon"><i class="uil uil-plus"></i></div>
+                <div class="question-answer">
+                    <h4>How do I know the right courses for me?</h4>
+                    <p>Visiting our website page and reviewing our contents,
+                        you will find all the information you might need.
+                        Our experts are available all the time you can even 
+                        reach out to us anytime.
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq-icon"><i class="uil uil-plus"></i></div>
+                <div class="question-answer">
+                    <h4>How do I know the right courses for me?</h4>
+                    <p>Visiting our website page and reviewing our contents,
+                        you will find all the information you might need.
+                        Our experts are available all the time you can even 
+                        reach out to us anytime.
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq-icon"><i class="uil uil-plus"></i></div>
+                <div class="question-answer">
+                    <h4>How do I know the right courses for me?</h4>
+                    <p>Visiting our website page and reviewing our contents,
+                        you will find all the information you might need.
+                        Our experts are available all the time you can even 
+                        reach out to us anytime.
+                    </p>
+                </div>
+            </article>
+        </div>
+    </section>
+    <!-- END FAQs  -->
+
+    <!--  TESTIMONIALS  -->
+    <section class="container testimonials-container mySwiper">
+        <h2>Students' Testimonials</h2>
+
+        <div class="swiper-wrapper">
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/Charity.jpg">
+                </div>
+                <div class="testimonial-info">
+                    <h5>Charity Daniel</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial-body">
+                    <p>I am glad and proud to say this is the best University
+                        ever. Through my transition have been able to learn
+                        alot. Big up to the support system.
+                    </p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/profile.png">
+                </div>
+                <div class="testimonial-info">
+                    <h5>Daniel Liam</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial-body">
+                    <p>I am glad and proud to say this is the best University
+                        ever. Through my transition have been able to learn
+                        alot. Big up to the support system.
+                    </p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/John.jpg">
+                </div>
+                <div class="testimonial-info">
+                    <h5>John Gatheru</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial-body">
+                    <p>I am glad and proud to say this is the best University
+                        ever. Through my transition have been able to learn
+                        alot. Big up to the support system.
+                    </p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/profile1.png">
+                </div>
+                <div class="testimonial-info">
+                    <h5>Daniel Wambua</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial-body">
+                    <p>I am glad and proud to say this is the best University
+                        ever. Through my transition have been able to learn
+                        alot. Big up to the support system.
+                    </p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/Musa.jpg">
+                </div>
+                <div class="testimonial-info">
+                    <h5>Daniel Wambua</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial-body">
+                    <p>I am glad and proud to say this is the best University
+                        ever. Through my transition have been able to learn
+                        alot. Big up to the support system.
+                    </p>
+                </div>
+            </article>
+        </div>
+        <div class="swiper-pagination"></div>
+    </section>
+    <!-- END TESTIMONIALS  -->
+
+    <!-- FOOTER  -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-1">
+                <a href="index.html" class="footer-logo"><h4>Dantech</h4></a>
+                <p>Transforming Technology To Higher Level.</p>
+            </div>
+
+            <div class="footer-2">
+                <h4>Permalinks</h4>
+                <ul class="permalinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-3">
+                <h4>Primacy</h4>
+                <ul class="primacy">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms and Condition</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-4">
+                <h4>Contact Us</h4>
+                <div>
+                    <p>+2547-90-682-630</p>
+                    <p>daniel21@gmail.com</p>
+                </div>
+
+                <ul class="footer-socials">
+                    <li><a href="#"><i class="uil uil-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="uil uil-instagram-alt"></i></a></li>
+                    <li><a href="#"><i class="uil uil-twitter"></i></a></li>
+                    <li><a href="#"><i class="uil uil-linkedin-alt"></i></a></li>
+                </ul>
+            </div>           
+        </div>
+        <div class="footer-copyright">
+            <small>Copyright &copy; Dantech Enterprise</small>
+        </div>
+    </footer>
+    <!-- END FOOTER  -->
+
+   <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            // when window width is >= 600px
+            breakpoints:{
+                600: {
+                    slidesPerView: 2,
+                }
+            }
+        });
+    </script>
+
+</body>
+</html>
